@@ -5,6 +5,10 @@
 body{
     margin:0;
 }
+.main{
+    max-width:2000px;
+    margin:auto;
+}
 .masterNav{
     height:100px;
 }
@@ -51,5 +55,31 @@ nav ul li h3{
 }
 
 .top h1{
-    font-size:70px;
+    font-size:65px;
+    margin-bottom:15px;
+}
+
+.top h1 span{
+    color:red;
+}
+.top p{
+    margin:0;
+    padding:0;
+    font-size:25px;
+}
+
+.top .video{
+    margin:60px 0;
+}
+iframe{
+  width:900px;
+  height:500px;
+}
+
+@media(max-width:900px){
+    iframe{
+        width:95vw;
+        height:50vh;
+        max-width:500px;
+    }
 }
