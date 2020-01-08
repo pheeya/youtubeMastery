@@ -12,6 +12,14 @@ body{
 .masterNav{
     height:100px;
 }
+.masterNav .limitedTime{
+  font-size:30px;
+text-align: center;
+BACKGROUND-COLOR:BLACK;
+margin-top:0;
+color:white;
+padding:10px;
+}
 nav{
     background-color:rgb(8, 113, 212);
     color:rgb(19, 18, 18);
@@ -82,4 +90,26 @@ iframe{
         height:50vh;
         max-width:500px;
     }
+}
+
+.enroll{
+    text-decoration: none;
+    color:white;
+    padding:15px;
+    background-color:rgb(36, 142, 241);
+    transition:background-color .2s;
+    border:0;
+    font-size:20px;
+    margin:10px;
+    border-radius:3px;
+    box-shadow:0 0 5px black;
+    cursor: pointer;
+    font-weight:bold;
+}
+.enroll span{
+font-size:13px;
+font-weight:400;
+}
+.enroll:hover{
+    background-color:rgb(57, 152, 253)
 }
