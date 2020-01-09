@@ -8,6 +8,7 @@ body{
 .main{
     max-width:2000px;
     margin:auto;
+    min-width:450px;
 }
 .masterNav{
     height:100px;
@@ -30,18 +31,8 @@ nav{
     top:0;
     margin:0;
 }
-@media(max-width:1656px){
-    .masterNav{
-        padding-bottom:100px;
-    }
-    nav{
-        position: relative;
-        margin:0;
-    }
-    nav ul{
-        justify-content: center !important;
-    }
-}
+
+
 nav ul{
     margin:0;
     padding:0;
@@ -61,7 +52,7 @@ text-align:center;
 
 ul li .holder{
     font-size:30px;
-    color:rgb(255, 247, 247);
+    color:rgb(255, 255, 255);
     font-weight:bold;
 }
 nav ul li h3{
@@ -98,13 +89,7 @@ iframe{
   height:500px;
 }
 
-@media(max-width:900px){
-    iframe{
-        width:95vw;
-        height:50vh;
-        max-width:500px;
-    }
-}
+
 
 .enroll{
     text-decoration: none;
@@ -177,4 +162,53 @@ box-shadow: 0 0 25px rgba(0, 0, 0, 0.192);;
 .mid2 li .bold{
     font-weight:bold;
     color:rgb(0, 153, 255);
+}
+
+@media(max-width:700px){
+    .top h1{
+        font-size:50px;
+    }
+    .top p {
+        font-size:18px;
+        max-width:600px;
+        margin:auto;
+    }
+}
+@media(max-width:1656px){
+    .masterNav{
+        padding-bottom:100px;
+    }
+    nav{
+        position: relative;
+        margin:0;
+    }
+    nav ul{
+        justify-content: center;
+    }
+}
+
+@media(max-width:900px){
+    iframe{
+        width:95vw;
+        height:50vh;
+        max-width:500px;
+    }
+}
+@media(max-width:450px){
+    nav li .holder{
+        font-size:20px;
+    }
+    nav ul li{
+        padding:10px;
+    }
+}
+
+@media(max-width:600px){
+    .mid ul{
+        margin:0;
+        padding:0;
+    }
+    .mid ul li{
+        padding:0;
+    }
 }
