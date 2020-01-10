@@ -213,6 +213,15 @@ section {
 .mid3 .content .bold {
   font-weight: 700;
 }
+.mid3 .content .value{
+  white-space: nowrap;
+  font-weight:bold;
+}
+@media(min-width:615px){
+  .mid3 .content .value{
+    float:right;
+  }
+}
 .mid3 h1 {
   text-align: center;
   color: red;
