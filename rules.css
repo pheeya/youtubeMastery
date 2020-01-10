@@ -322,7 +322,9 @@ justify-content: CENTER;
   text-align: left;
   width:100%;
   overflow: hidden;
-  margin:1px;
+  margin:10px;
+box-shadow:0 0 5px rgba(0, 0, 0, 0.301);
+padding:5px;
 
 }
 .mid55 .three li img{
@@ -332,7 +334,13 @@ justify-content: CENTER;
   RIGHT:28%;
   
 }
-
+.mid5 .open{
+  font-size:20px;
+  margin:30px 0;
+}
+.mid55 .graph{
+  margin-bottom:40px;
+}
 .mid55 .graph img{
   box-shadow:0 0 15px rgba(0, 0, 0, 0.068);
   width:100%;
