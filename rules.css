@@ -9,6 +9,9 @@ body {
   margin: 0;
   background-color:whitesmoke;
 }
+.bold{
+  font-weight: bold;
+}
 ul, li {
     margin:0;
     padding:0;
