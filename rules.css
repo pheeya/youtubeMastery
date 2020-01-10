@@ -168,10 +168,21 @@ section {
   margin:0px auto;
   padding: 20px;
 }
+.mid2 .sell{
+  margin:50px 0;
+}
+.mid2 .sell h1{
+  color:rgb(0, 132, 255);
+}
+.mid2 p{
+  font-size:22px;
+  margin:20px 0;
+}
 .mid2 h1 {
   font-size: 40px;
   font-family: 'Fjalla One', sans-serif;
 }
+
 
 .mid2 ul {
   list-style-type: none;
@@ -223,6 +234,7 @@ section {
   display: flex;
   background-color: rgb(243, 243, 243);
   text-align: left;
+  border:1px solid rgba(0, 0, 0, 0.158);
 }
 
 .mid4 .contentHolder h2 {
@@ -240,12 +252,12 @@ section {
 }
 .mid4 .red {
   font-family: 'Fjalla One', sans-serif;
-  color: red;
+  color: rgb(0, 132, 255);
   font-size: 18px;
   font-weight: bold;
   border-bottom: orange;
   margin: 5px 0;
-  text-align: left; font-size: 23px; color: rgb(203, 17, 0);
+  text-align: left; font-size: 23px; =
 }
 .mid4 ul{
     list-style-type:none;
