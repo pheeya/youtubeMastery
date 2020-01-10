@@ -290,6 +290,7 @@ justify-content: CENTER;
   MARGIN:10PX;
   width:30%;
 }
+
 .mid5 .mid5Holder .right{
   MARGIN:10PX;
   max-width:60%;
@@ -301,11 +302,15 @@ justify-content: CENTER;
 .mid5Holder p{
   font-size:19px;
 }
-.mid5Holder .right img{
-  width:100%;
+.graphmid5{
+  width:100%;  
+  box-shadow:0 0 15px rgba(0, 0, 0, 0.247);
+  max-width:700px;
+  margin:20px 0;
 }
 .mid5 .left img{
   width:100%;
+
 }
 
 .mid55 .three ul{
